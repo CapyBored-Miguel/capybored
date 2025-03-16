@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #ffdab9;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.stats {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.game-board {
+    display: grid;
+    grid-template-columns: repeat(4, 80px);
+    grid-template-rows: repeat(4, 80px);
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.card {
+    width: 80px;
+    height: 80px;
+    background: white;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.card.hidden {
+    background: #ddd;
+    color: transparent; /* Hide emoji initially */
+}
+
+.card.flip {
+    background: #F4A261;
+    color: black; /* Show emoji when flipped */
+    transform: rotateY(180deg);
+}
+
+
+#reset {
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background: #F4A261;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#reset:hover {
+    background: #E76F51;
+}
+
+.back-button {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    background: #2a9d8f;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.back-button:hover {
+    background: #21867a;
+}

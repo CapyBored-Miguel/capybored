@@ -1,0 +1,77 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background-color: #A7E8BD;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    font-size: 2.5rem;
+    margin: 20px 0;
+    color: #333;
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.game-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+}
+
+.game-card {
+    background: white;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 250px; /* Ensures all cards have the same width */
+    height: 350px; /* Ensures all cards have the same height */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.game-card img {
+    width: 100%;
+    height: 180px; /* Ensures all images have the same height */
+    object-fit: cover; /* Prevents distortion */
+    border-radius: 8px;
+}
+
+
+.game-card h2 {
+    margin: 10px 0;
+    font-size: 1.5rem;
+}
+
+.play-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background: #F4A261;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 6px;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+.play-button:hover {
+    background: #E76F51;
+}
+
+footer {
+    margin-top: 30px;
+    font-size: 14px;
+    color: #444;
+}

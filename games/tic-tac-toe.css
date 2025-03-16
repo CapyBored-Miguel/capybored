@@ -1,0 +1,134 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #ffdab9;
+    padding: 20px;
+}
+
+.back-button {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: #E76F51;
+    color: white;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.scoreboard {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+#board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    gap: 5px;
+    margin: 20px auto;
+    width: 310px;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    background: white;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+    cursor: pointer;
+}
+
+.cell:hover {
+    background: #ddd;
+}
+
+#reset {
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    background: #F4A261;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#reset:hover {
+    background: #E76F51;
+}
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #ffdab9;
+    padding: 20px;
+}
+
+.back-button {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: #E76F51;
+    color: white;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.scoreboard {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+#board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    gap: 5px;
+    margin: 20px auto;
+    width: 310px;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    background: white;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+    cursor: pointer;
+}
+
+.cell:hover {
+    background: #ddd;
+}
+
+#reset {
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    background: #F4A261;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#reset:hover {
+    background: #E76F51;
+}

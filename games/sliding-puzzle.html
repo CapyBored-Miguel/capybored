@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sliding Puzzle</title>
+    <link rel="stylesheet" href="sliding-puzzle.css">
+</head>
+<body>
+    <!-- Back button at top-left -->
+    <button id="back" onclick="location.href='../index.html'">Back</button>
+
+    <h1>Sliding Puzzle</h1>
+
+    <div id="image-selection">
+        <label for="imageSelect">Choose an image:</label>
+        <select id="imageSelect">
+            <option value="image1">Image 1</option>
+            <option value="image2">Image 2</option>
+        </select>
+        <button id="startGame">Start</button>
+    </div>
+
+    <div id="timer-container">
+        <p>Time: <span id="timer">0</span> seconds</p>
+        <p>Best Time: <span id="bestTime">--</span></p>
+    </div>
+
+    <div id="game-container">
+        <div id="gameBoard"></div>
+        <button id="shuffle">Shuffle</button>
+    </div>
+
+    <script src="sliding-puzzle.js"></script>
+</body>
+</html>
